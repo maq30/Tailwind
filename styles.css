@@ -1,0 +1,44 @@
+* {
+    justify-content: left;
+    justify-content: flex-start; 
+    justify-content: flex-end;
+    justify-content: center; 
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+  }
+.logo {
+    display: flex;
+    align-items: center;
+}
+  .header {
+      display:flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      justify-content: center;
+  }
+
+  .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      
+  }
+
+  
+.submit {
+
+}
+
+ input[type=text], input[type=password] {   
+    width: 100%;   
+    margin: 8px 0;  
+    padding: 12px 20px;   
+    display: inline-block;      
+}  
+
+.checkbox {
+    display: flex;
+    align-items: space-around;
+}
