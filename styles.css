@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
 * {
     justify-content: left;
     justify-content: flex-start; 
@@ -11,34 +13,59 @@
     display: flex;
     align-items: center;
 }
-  .header {
-      display:flex;
-      justify-content: flex-end;
-      align-items: flex-end;
-      justify-content: center;
-  }
+
+.signin {
+    display: flex;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+
+.start {
+    display: flex ;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
 
   .container {
       display: flex;
       align-items: center;
       justify-content: center;
-      
-      
   }
 
-  
-.submit {
 
+
+  
+.login {
+    display:flex;
+    padding: 10px 70px 10px 70px;
+    border-radius: 10px;
+    background-color: hsl(245, 92%, 64%);
+    color: hsl(225, 100%, 98%);
+    font-size: 1rem;
+    font-weight: 900;
+    border: none;
+    box-shadow: 0px 12px 0px rgba(0, 0, 0, 0.05);
+    font-family: "Inter", sans-serif;
+}
+
+
+.forgot {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: center;
+    font-family: "Inter", sans-serif;
+}
+
+.remember {
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Inter", sans-serif;
 }
 
  input[type=text], input[type=password] {   
     width: 100%;   
+    font-family: "Inter", sans-serif;
     margin: 8px 0;  
     padding: 12px 20px;   
     display: inline-block;      
 }  
-
-.checkbox {
-    display: flex;
-    align-items: space-around;
-}
